@@ -36,7 +36,7 @@ jobs:
       - run: npm run data:build
       - run: npx playwright install --with-deps chromium firefox webkit
       - name: Gitleaks
-        uses: gitleaks/gitleaks-action@v2
+        uses: gitleaks/gitleaks-action@v3
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - run: npm audit --omit=dev --audit-level=high
