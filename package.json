@@ -79,7 +79,7 @@
     "fflate": "0.8.3",
     "hyparquet": "1.31.5",
     "hyparquet-compressors": "1.1.2",
-    "i18next": "26.5.4",
+    "i18next": "26.5.11",
     "idb-keyval": "6.3.0",
     "minisearch": "7.2.0",
     "papaparse": "5.7.0",
